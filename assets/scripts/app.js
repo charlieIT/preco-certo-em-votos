@@ -22,10 +22,6 @@ $.ajax({
   }
 });
 
-function numberSeparator(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-}
-
 var addOrcamento = function(orcamentos){
   var csv = orcamentos.split("\n");
   for(i in csv){
@@ -125,7 +121,7 @@ var addInfoToHTML = function(){
         + "<div>"
         //+ "<div style='height:"+partidoHeight+"px; width:"+partidoWidth+"px;' class='ball " + treatedPartidoName + "'>"
         + "<div style='height:"+partidoHeight+"px; width:"+partidoWidth+"px;' class='ball " + treatedPartidoName + "'>"
-        + "<span><small class='euro'>€</small>" + numberSeparator(Number(pricePerDeputado)) + "<small> por deputado</small></span></div>"
+        + "<span><small class='euro'>€</small>" + pricePerDeputado + "<small> por deputado</small></span></div>"
         + "</div>"        
         + "<div class='header'><h3><span class='" + treatedPartidoName + "'></span>" + partidoName + "</h3>" + "<p>" + partidoValue["num_deputados"] + " deputados eleitos" + "</p>"
         //+ "</br>" + parseInt( partidoValue["total_receitas"] ).toLocaleString() + " €"
