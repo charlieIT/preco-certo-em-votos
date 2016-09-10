@@ -1,0 +1,248 @@
+/* Eric Meyer's Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, main,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Os nossos estilos */
+
+/* Tipografia
+*/
+
+/*@font-face {
+  font-family: 'Comme Regular';
+  src: local('Comme Regular'), url('/fonts/CommeSans/Comme-Regular.ttf') format('truetype');
+}
+*/
+/*body {
+  font-family: 'Comme Regular', DejaVu Sans, Arial, sans-serif;
+  line-height: 1.4;
+}
+*/
+
+body {
+  font-family: 'Roboto', DejaVu Sans, Arial, sans-serif;
+  line-height: 1.4;
+  padding-top: 15px;
+}
+
+h1 {  
+  font-size: 2.25em;
+  margin-bottom: .5em; 
+  line-height:1;
+}
+
+h2 {  
+  font-size: 1.85em;
+}
+
+h3 {  
+  font-size: 0.875em;
+}
+
+
+/* Layout
+*/
+
+body {
+  background: #eee;
+  color: #333;
+}
+
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+
+.row:after,
+.header:after {
+  clear: both;
+}
+
+.row {
+  width: 92%;
+  margin: 1em auto;
+}
+
+.ano {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.ano h2{
+    font-size: 1.25em; 
+    line-height: 1em;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+.ano .info{
+    text-align: center;
+  }  
+ .ano .info .partido{
+      text-align: center;
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+}
+      .ano .info .partido .header{
+        margin: 10px 0;
+}
+        .ano .info .partido .header span {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          border-radius: 20px;
+          margin-right: 5px;
+        }
+        .ano .info .partido .header h3{
+          font-weight: bold;
+          text-transform: uppercase;
+          margin: 0;
+        }
+        .ano .info .partido .header p {
+          font-size: 0.75em;
+        }
+      
+
+      .ano .info .partido div {
+        margin: 0 auto;
+      }
+        .ball{
+          border-radius: 50%;
+          line-height: 1.2em;
+          background: #666;
+          opacity: 0.8;
+          /*-webkit-box-shadow: 5px 5px 5px -5px rgba(102,102,102,1);
+          -moz-box-shadow: 5px 5px 5px -5px rgba(102,102,102,1);
+          box-shadow: 5px 5px 5px -5px rgba(102,102,102,1);*/
+          position: relative;
+          }
+
+          .ball:hover {
+            opacity: 1;
+          }
+
+          .ano .info .partido div .ball span {
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100px;
+            margin-left: -50px;
+            font-size: 1em;
+            line-height: 1.2em;
+            font-weight: bold;
+            color: #fff;
+          }
+            .ano .info .partido div .ball span small {
+              display: block;
+              font-size: 60%;
+              font-weight: normal;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              
+              }
+
+.PAF {
+  background-color: #f7941e; /* fallback */
+  background: repeating-linear-gradient(
+    45deg,
+    #f7941e,
+    #f7941e 10px,
+    #0093dd 10px,
+    #0093dd 20px
+  );
+}
+
+hr {
+  margin: 0;
+  color: rgba(0,0,0,.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {  
+  line-height: 2.2em;
+  padding: 50px 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: none;
+  color: #ff6959;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#main {
+  border-top: 1px solid rgba(0,0,0,.2);
+}
+
+#intro p {
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+h1 sub {
+  font-size: .5em;
+}
+
+sub {
+  vertical-align: middle;
+  color: #999;
+}

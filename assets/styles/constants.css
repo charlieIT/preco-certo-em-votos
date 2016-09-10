@@ -1,0 +1,32 @@
+
+/*.PAF {
+  background-color: #f7941e;
+  background: repeating-linear-gradient(
+    45deg,
+    #f7941e,
+    #f7941e 45px,
+    #0093dd 45px,
+    #0093dd 90px
+  );
+}*/
+
+.PAN{ background-color: #0a6580; }
+.PPDPSD { background-color: #f7941e; }
+.PSD { background-color: #f7941e; }
+.PPD { background-color: #f7941e; }
+.PS { background-color: #feaaaa; }
+.CDU,
+.PCPPEV { background-color: #da251e; }
+.PCP { background-color: #da251e; }
+.CDSPP { background-color: #da251e; }
+.CDS { background-color: #0093dd; }
+.BE { background-color: #c90535; }
+.PCTPMRPP { background-color: #ef4035; }
+.PSN { background-color: #1b256d; }
+.PRD { background-color: #216b31; }
+.APU { background-color: #ff5d61; }
+.PDC { background-color: #050505; }
+.AD { background-color: #00ffff; }
+.FRS { background-color: #ff0000; }
+.UDP { background-color: #ff0000; }
+.MDP { background-color: #c83019; }
