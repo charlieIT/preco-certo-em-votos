@@ -246,3 +246,11 @@ sub {
   vertical-align: middle;
   color: #999;
 }
+
+.ano .info .partido div .ball span small.euro {
+  display: inline;
+  font-size: 60%;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
